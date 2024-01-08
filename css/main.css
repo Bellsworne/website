@@ -102,6 +102,13 @@ footer {
     background-color: #434343;
     margin: 0px;
     padding: 1px;
+    letter-spacing: 1px;
+}
+
+footer a {
+    color: #996a4a;
+} footer a:visited {
+    color: #996a4a;
 }
 
 /* DESKTOP SPECIFIC STYLES */
