@@ -95,6 +95,10 @@ header h1 {
     transform: scale(1.2);
 }
 
+#companies_container div:active {
+    transform: scale(1.2);
+}
+
 /* ABOUT Panel */
 
 #about p {
