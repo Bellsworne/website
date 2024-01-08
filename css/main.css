@@ -87,6 +87,14 @@ header h1 {
     width: 100%;
 }
 
+#companies_container div {
+    transition: transform 500ms;
+}
+
+#companies_container div:hover {
+    transform: scale(1.2);
+}
+
 /* ABOUT Panel */
 
 #about p {
