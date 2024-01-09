@@ -17,6 +17,28 @@ body {
     padding: 0;
 }
 
+/* NAVBAR */
+
+#navbar {
+    width: 100vw;
+    height: 3vh;
+    background-color: #434343;
+    padding: 5px 5px 5px 5px;
+    margin: 0;
+}
+
+#navbar img {
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+#navbar p {
+    margin: 0;
+    float: right;
+    font-size: 100%;
+}
+
 /* Header stuff */
 
 header {
@@ -31,7 +53,7 @@ header h1 {
     width: 60vw;
     height: auto;
     margin: auto;
-    margin-top: 2vh;
+    margin-top: 5vh;
 }
 
 /* Content panel */

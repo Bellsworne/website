@@ -5,25 +5,25 @@
 }
 
 #tr-gear {
-    animation: gear-left 3s linear infinite;
+    animation: gear-left 2s linear infinite;
     transform-origin: center;
     transform-box: fill-box;
 }
 
 #br-gear {
-    animation: gear-left 3s linear infinite;
+    animation: gear-left 2s linear infinite;
     transform-origin: center;
     transform-box: fill-box;
 }
 
 #tl-gear {
-    animation: gear-left 3s linear infinite;
+    animation: gear-left 2s linear infinite;
     transform-origin: center;
     transform-box: fill-box;
 }
 
 #bl-gear {
-    animation: gear-left 3s linear infinite;
+    animation: gear-left 2s linear infinite;
     transform-origin: center;
     transform-box: fill-box;
 }
