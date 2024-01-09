@@ -1,0 +1,59 @@
+#big-gear {
+    animation: big-gear 10s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#tr-gear {
+    animation: gear-left 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#br-gear {
+    animation: gear-left 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#tl-gear {
+    animation: gear-left 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#bl-gear {
+    animation: gear-left 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+  @keyframes big-gear {
+    from {
+      rotate: 0deg;
+    }
+
+    to {
+      rotate: 180deg;
+    }
+}
+
+@keyframes gear-right {
+    from {
+        rotate: 0deg;
+      }
+  
+      to {
+        rotate: 180deg;
+      }
+}
+
+@keyframes gear-left {
+    from {
+        rotate: 0deg;
+      }
+  
+      to {
+        rotate: -180deg;
+      }
+}

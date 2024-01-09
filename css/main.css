@@ -30,6 +30,7 @@ header h1 {
 #banner-logo {
     width: 60vw;
     height: auto;
+    margin: auto;
     margin-top: 2vh;
 }
 
