@@ -1,0 +1,58 @@
+@import url(defaults.css);
+@import url(bellsworne-colors.css);
+
+/* COMPANIES Panel */
+
+#companies_container {
+    display: grid;
+}
+
+#companies_container div {
+    aspect-ratio: 1;
+    place-self: center;
+    width: 35vw;
+}
+
+#companies_container {
+    grid-template-columns: repeat(2, 1fr);
+}
+#companies_container div:nth-child(3) {
+    grid-column: 1/-1;
+}
+
+#companies_container a {
+    width: 100%;
+}
+
+#companies_container img {
+    height: auto;
+    width: 100%;
+}
+
+#companies_container div {
+    transition: transform 500ms;
+}
+
+#companies_container div:hover {
+    transform: scale(1.2);
+}
+
+#companies_container div:active {
+    transform: scale(1.2);
+}
+
+/* ABOUT Panel */
+
+#about p {
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+/* DESKTOP SPECIFIC STYLES */
+
+@media (min-width: 500px) {
+    #companies_container div {
+        width: 25vw;
+    }
+}
